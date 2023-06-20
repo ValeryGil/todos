@@ -6,7 +6,9 @@ public class SimpleTask extends Task {
         this.title = title; // заполнение своих полей
     }
 
-    public String getTitle() { return title; }
+    public String getTitle() {
+        return title;
+    }
 
     @Override
     public boolean matches(String query) {
